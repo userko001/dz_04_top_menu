@@ -1,0 +1,96 @@
+.menu-wrapper {
+    text-align: center;
+    color: red;
+	background-color:beige;
+	height:100px;
+}
+
+.menu-wrapper  span{
+    color: blue;
+    text-decoration: underline;
+}
+
+.menu-wrapper  span span{
+    color: red;
+    text-decoration: underline;
+	font-size:32px;
+}
+
+span{
+    color: red;
+    font-weight: bold;
+}
+
+#project_item {
+    font-size: 40px;
+    text-decoration: none;
+}
+
+div.sub-menu
+{
+	color:green;
+	display:inline;
+	
+	/*
+	display:none;
+	*/
+}
+div.menu-wrapper div.sub-menu:hover ul
+{
+	display:inline;
+	position:absolute;
+	color:blue;
+}
+
+#sub-menu-1 ul
+{
+	left:40%;
+}
+#sub-menu-2 ul
+{
+	left:43%;
+}
+#sub-menu-3 ul
+{
+	left:47%;
+}
+#sub-menu-4 ul
+{
+	left:50%;
+}
+
+div.menu-wrapper div.sub-menu ul
+{
+	display:none;
+	list-style-type:none;
+}
+div.menu-wrapper div.sub-menu ul a:hover
+{
+	color:red;
+}
+
+
+/*
+#sub-menu-1:hover
+{
+	color:blue;
+}
+*/
+
+/*
+div:hover
+{
+	color:pink;
+}
+span.ololo
+{
+	display:none;
+	color:green;
+}
+div:hover span.ololo
+{
+	display:inline;
+	position:absolute;
+	color:blue;
+}
+*/
